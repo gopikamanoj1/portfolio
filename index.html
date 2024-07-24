@@ -24,7 +24,18 @@
 
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
-
+  <style>
+    .profile-img {
+      display: block;
+    }
+    @media (max-width: 991.98px) {
+      .profile-img {
+        display: block;
+        width: 100px;
+        height: 100px;
+      }
+    }
+  </style>
 
 </head>
 
@@ -33,8 +44,8 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">  </span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/gopika profile.jpg" alt="">
+      <span class="d-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2 profile-img" src="assets/gopika profile.jpg" alt="">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
